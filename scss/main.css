@@ -11966,25 +11966,37 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (max-width: 991px) {
+  .last-image {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 html {
   position: relative;
   min-height: 100%;
 }
 
 main {
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 
 footer.footer {
-  padding: 15px;
+  padding: 45px;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
+body {
+  color: #F4F1DE;
+}
+
 p {
   font-family: "Hind Mandurai", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .hero-scene {
@@ -11999,7 +12011,7 @@ p {
   height: 100%;
   background-image: url("/image/Jaguar_.png");
   background-size: cover;
-  filter: brightness(0.3);
+  filter: brightness(0.5);
 }
 .hero-scene * {
   position: relative;
@@ -12009,8 +12021,47 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .hero-scene .hero-scene-content h1, .hero-scene .hero-scene-content .h1 {
   margin-bottom: 4rem;
+}
+
+.text-presentation {
+  background-color: #A65E44;
+  padding: 3rem;
+  width: 100%;
+}
+
+.menthe {
+  background-color: #9BC995;
+  padding-bottom: 4rem;
+}
+
+.animaux {
+  background-color: #A65E44;
+  padding: 3rem;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.equal-size {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+#avis {
+  padding: 50px;
+  background-color: #A65E44;
+}
+
+.avis-title {
+  text-decoration: underline;
+}
+
+#avis .carousel-item {
+  padding: 30px 30px 90px;
 }/*# sourceMappingURL=main.css.map */
