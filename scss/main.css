@@ -12011,6 +12011,7 @@ p {
   height: 100%;
   background-image: url("/image/Jaguar_.png");
   background-size: cover;
+  background-position: center;
   filter: brightness(0.5);
 }
 .hero-scene * {
@@ -12064,4 +12065,16 @@ img {
 
 #avis .carousel-item {
   padding: 30px 30px 90px;
+}
+
+.visite-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#habitats-anim {
+  background-color: #A65E44;
+  margin: 0;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
