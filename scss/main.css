@@ -11981,10 +11981,11 @@ html {
 
 main {
   margin-bottom: 200px;
+  background-color: #A65E44;
 }
 
 footer.footer {
-  padding: 45px;
+  padding: 30px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -12029,7 +12030,6 @@ p {
 }
 
 .text-presentation {
-  background-color: #A65E44;
   padding: 3rem;
   width: 100%;
 }
@@ -12074,7 +12074,19 @@ img {
 }
 
 #habitats-anim {
-  background-color: #A65E44;
   margin: 0;
   padding: 20px;
+}
+
+#contact-Form {
+  padding: 60px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #9BC995;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=main.css.map */

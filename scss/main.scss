@@ -16,9 +16,10 @@ html{
 }
 main{
     margin-bottom: 200px;
+    background-color: $secondary;
 }
 footer.footer{
-    padding: 45px;
+    padding: 30px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -64,7 +65,7 @@ p{
 }
 
 .text-presentation {
-    background-color: $secondary;
+
     padding: 3rem;
     width: 100%;
     
@@ -105,7 +106,17 @@ img {
 
 }
 #habitats-anim {
-    background-color:$secondary;
     margin: 0;
     padding: 20px;
+}
+#contact-Form {
+    padding: 60px;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: $bg-dark;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
